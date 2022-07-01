@@ -1,0 +1,12 @@
+subscription GetBucket {
+  bucket {
+    id
+    items {
+      id
+      item {
+        text
+        id
+      }
+    }
+  }
+}
